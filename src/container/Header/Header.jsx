@@ -19,7 +19,7 @@ const Header = () => (
       </button>
     </div>
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="welcoming image" />
+      <img src={images.welcome} alt="welcoming" />
     </div>
     Header
   </div>
