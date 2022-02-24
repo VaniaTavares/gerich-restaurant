@@ -45,7 +45,7 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               {navbarLinks.map((tab) => (
-                <li key={tab.id} className="p__opensans">
+                <li key={tab.id + "xs"} className="p__opensans">
                   <a href={`${tab.link}`}>{tab.title}</a>
                 </li>
               ))}

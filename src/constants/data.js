@@ -101,11 +101,6 @@ export const navbarLinks = [
     title: "Awards",
   },
   {
-    id: 1001,
-    link: "#home",
-    title: "Home",
-  },
-  {
     id: 1005,
     link: "#contacts",
     title: "Contacts",
