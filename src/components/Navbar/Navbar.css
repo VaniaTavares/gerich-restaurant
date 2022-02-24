@@ -103,11 +103,10 @@
 
 @media screen and (min-width: 900px) {
   .app__navbar {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 
   .app__navbar-links {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
