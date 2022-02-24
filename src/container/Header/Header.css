@@ -8,9 +8,15 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 100px;
-  font-size: 75px;
+  font-size: 55px;
 }
 
 .app__header-img img {
   width: 80%;
+}
+
+@media screen and (min-width: 500px) {
+  .app__header-h1 {
+    font-size: 75px;
+  }
 }

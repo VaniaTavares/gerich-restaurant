@@ -1,10 +1,10 @@
 .app__navbar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: var(--color-black);
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
 
 .app__navbar-logo {
@@ -101,7 +101,11 @@
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
+  .app__navbar {
+    padding: 1rem;
+  }
+
   .app__navbar-links {
     flex: 1;
     display: flex;
