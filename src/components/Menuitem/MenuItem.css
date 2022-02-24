@@ -22,7 +22,7 @@
 }
 
 .app__menuItem-dash {
-  width: clamp(60px, 90%, 310px);
+  width: clamp(60px, 90%, 400px);
   height: 1.5px;
   background-color: var(--color-golden);
   margin: 0 1rem;

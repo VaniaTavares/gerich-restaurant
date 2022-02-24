@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 2.75rem;
 }
 
 .app__chef-content_quote {
@@ -30,4 +30,10 @@
 
 .app__chef-sign img {
   width: clamp(175px, 80%, 420px);
+}
+
+@media screen and (min-width: 900px) {
+  .app__chef-content {
+    margin-top: 5rem;
+  }
 }

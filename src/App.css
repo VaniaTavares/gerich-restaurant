@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
 
-  margin-left: 2rem;
+  margin: 3rem auto;
 }
 
 .app__wrapper_img-reverse {
@@ -114,10 +114,6 @@
   .section__padding {
     padding: 4rem 3rem;
   }
-}
-
-.section__padding {
-  padding: 4rem 6rem;
 }
 
 @media screen and (min-width: 850px) {
