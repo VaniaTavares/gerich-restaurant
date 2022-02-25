@@ -1,5 +1,6 @@
 .section__padding {
   padding: 4rem 2rem;
+  box-sizing: border-box;
 }
 
 .flex__center {
@@ -35,7 +36,7 @@
 
 .app__wrapper_img {
   flex: 1;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,15 +111,12 @@
   }
 }
 
-@media screen and (min-width: 650px) {
-  .section__padding {
-    padding: 4rem 3rem;
-  }
-}
-
 @media screen and (min-width: 850px) {
   .app__wrapper {
     flex-direction: row;
+  }
+  .section__padding {
+    padding: 4rem 3rem;
   }
 }
 

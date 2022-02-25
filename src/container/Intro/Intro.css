@@ -1,7 +1,7 @@
 .app__video {
   height: 100vh;
   position: relative;
-  width: 100vw;
+  width: 100%;
 }
 
 .app__video video {

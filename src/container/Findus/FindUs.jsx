@@ -6,10 +6,7 @@ const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Contact" />
-      <h1
-        className="headtext__cormorant"
-        style={{ color: "#DCCA87", marginBottom: "2.5rem" }}
-      >
+      <h1 className="headtext__cormorant" style={{ marginBottom: "2.5rem" }}>
         Find Us
       </h1>
       <div className="app__wrapper-content">
