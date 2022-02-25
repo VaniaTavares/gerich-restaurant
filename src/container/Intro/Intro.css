@@ -28,9 +28,18 @@
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0);
-  opacity: 0;
+  opacity: 0.5;
 }
 
-.app__video-overlay_hover:hover {
-  opacity: 0.5;
+@media screen and (min-width: 800px) {
+  .app__video-overlay_hover {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0);
+    opacity: 0;
+  }
+
+  .app__video-overlay_hover:hover {
+    opacity: 0.5;
+  }
 }
