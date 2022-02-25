@@ -32,6 +32,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  padding-right: 0;
 }
 
 .app__wrapper_img {
@@ -118,6 +119,10 @@
   .section__padding {
     padding: 4rem 3rem;
   }
+
+  .app__wrapper_info {
+    padding-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 1150px) {
@@ -132,6 +137,10 @@
   .headtext__cormorant {
     font-size: 64px;
     line-height: 83.2px;
+  }
+
+  .app__wrapper_info {
+    padding-right: 2rem;
   }
 }
 

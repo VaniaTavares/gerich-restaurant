@@ -28,9 +28,19 @@ const Intro = () => {
         muted
         ref={vidRef}
       />
-      <div className="app__video-overlay flex__center">
+      <div
+        className={
+          playVideo
+            ? "app__video-overlay_hover flex__center"
+            : "app__video-overlay flex__center"
+        }
+      >
         <div
-          className="app__video-overlay_circle flex__center"
+          className={
+            playVideo
+              ? "app__video-overlay_circle_hover flex__center"
+              : "app__video-overlay_circle flex__center"
+          }
           onClick={() => handleVideo()}
         >
           {playVideo ? (
