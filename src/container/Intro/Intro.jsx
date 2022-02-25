@@ -36,11 +36,7 @@ const Intro = () => {
         }
       >
         <div
-          className={
-            playVideo
-              ? "app__video-overlay_circle_hover flex__center"
-              : "app__video-overlay_circle flex__center"
-          }
+          className="app__video-overlay_circle flex__center"
           onClick={() => handleVideo()}
         >
           {playVideo ? (
