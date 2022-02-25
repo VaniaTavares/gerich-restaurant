@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VaniaTavares/gericht-restaurant">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/images/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Gericht Restaurant</h3>
