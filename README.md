@@ -51,6 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+<img src="public/landingpage.png" alt="Landing Page" align="center"/>
 
 ### Built With
 
