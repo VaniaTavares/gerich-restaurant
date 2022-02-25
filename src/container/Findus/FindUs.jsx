@@ -1,8 +1,15 @@
-import React from 'react';
+import React from "react";
+import { SubHeading } from "../../components";
+import { images } from "../../constants";
 
 const FindUs = () => (
-  <div>
-    FindUs
+  <div className="app__bg app__wrapper section__padding" id="contact">
+    <div className="app__wrapper_info">
+      <SubHeading title="Contact" />
+    </div>
+    <div className="app__wrapper_img">
+      <img src={images.findus} alt="Find Us" />
+    </div>
   </div>
 );
 
