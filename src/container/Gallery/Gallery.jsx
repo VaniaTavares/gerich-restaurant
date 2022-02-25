@@ -19,11 +19,10 @@ const Gallery = () => {
   const scrollRef = useRef();
 
   const scroll = (direction) => {
-    const { current } = scrollRef;
     if (direction === "left") {
-      current.scrollLeft -= 300;
+      scrollRef.current.scrollLeft -= 300;
     } else if (direction === "right") {
-      current.scrollLeft += 300;
+      scrollRef.current.scrollLeft += 300;
     }
   };
 
@@ -39,17 +38,19 @@ const Gallery = () => {
           View More
         </button>
       </div>
-      <div className="app__gallery-images">
-        <div className="app__gallery-images_container" ref={scrollRef}>
-          {galleryImages.map((image, index) => (
-            <div
-              className="app__gallery-images_card flex__center"
-              key={index + "b"}
-            >
-              <img src={image} alt="gallery" />
-              <BsInstagram className="app__gallery-image_icon" />
-            </div>
-          ))}
+      <div className="app__gallery-images_overall">
+        <div className="app__gallery-images" ref={scrollRef}>
+          <div className="app__gallery-images_container">
+            {galleryImages.map((image, index) => (
+              <div
+                className="app__gallery-images_card flex__center"
+                key={index + "b"}
+              >
+                <img src={image} alt="gallery" />
+                <BsInstagram className="app__gallery-image_icon" />
+              </div>
+            ))}
+          </div>
         </div>
         <div className="app__gallery-images_arrows">
           <BsArrowLeftShort
