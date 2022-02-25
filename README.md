@@ -15,12 +15,12 @@
 <h3 align="center">Gericht Restaurant</h3>
 
   <p align="center">
-    Project developed using the <a href="https://www.youtube.com/watch?v=4oV65GVVits&list=PL1_JkHaA0utwAb13N-NPqnvdSX67iLBEi&index=13">Build and Deploy a Fully Responsive Restaurant Website with Modern UI and UX in ReactJS </a> as a reference. Its main focus is ensuring responsivess.
+    Front-End Project developed using the <a href="https://www.youtube.com/watch?v=4oV65GVVits&list=PL1_JkHaA0utwAb13N-NPqnvdSX67iLBEi&index=13">Build and Deploy a Fully Responsive Restaurant Website with Modern UI and UX in ReactJS </a> as a reference. Its main focus is ensuring responsivess.
     <br />
     <a href="https://github.com/VaniaTavares/gericht-restaurant"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/VaniaTavares/gericht-restaurant">View Demo</a>
+    <a href="https://my-gericht-restaurant-vt.netlify.app/">Live Site</a>
     ·
     <a href="https://github.com/VaniaTavares/gericht-restaurant/issues">Report Bug</a>
     ·
